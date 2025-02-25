@@ -1,0 +1,28 @@
+A Minimal System Design
+
+Typography System
+H1: 50pt, Bold
+H2: 24px, Semi-Bold
+H3: 20px, Semi-Bold
+Body: 16px, Regular
+
+
+Color Palette
+Primary:rgb(65, 155, 245) (blue)
+Secondary:rgb(47, 156, 20) (green)
+secondary2: #20568c darker blue
+Background: #F8F9FA (light gray)
+Text:rgb(0, 0, 0) (black)
+forefround: rgb(65, 155, 245)
+text2:rgb(255, 255, 255)
+
+Spacing & Grid System
+Use a 6px or 12px spacing system for padding/margin.
+Apply layout grids (12-column grid for responsive design).
+
+Button Styles
+Primary Button (e.g., solid color)
+Secondary Button (e.g., outlined)
+Example:
+Primary: use secondary color, white text, solid color
+Secondary: Transparent background, black text, outlined solid black
