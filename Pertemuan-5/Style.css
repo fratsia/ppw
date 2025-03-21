@@ -54,6 +54,10 @@ a {
     border: 1px solid white;
     border-radius: 5px;
     text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+a:hover {
+    transform: translateY(-5px);
 }
 nav {
     display: flex;
@@ -63,6 +67,11 @@ nav {
 section img{
     width: 40%;
     margin: 10px;
+    filter: blur(0px);
+    transition: filter 0.5s ease;
+}
+section img:hover {
+    filter: blur(2px);
 }
 article {
     text-align: justify;
@@ -96,6 +105,7 @@ header {
     display: flex;
     justify-content: space-between;
     border-radius: 0 0 20px 20px;
+    z-index: 1000;
 }
 .Box-Logo{
     display: flex;
@@ -118,10 +128,20 @@ header {
     justify-content: space-evenly;
     padding-bottom: 5%;
 }
+.w-button {
+    min-height: 200px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
 .w-button a {
     background-color: #2F9C14;
     border-color: #2F9C14;
     padding: 5px 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.w-button a:hover {
+    transform: translateY(-5px);
 }
 a p {
     font-weight: 200;
@@ -197,6 +217,12 @@ a p {
     padding: 30px;
     margin: 10px 0;
     border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
 }
 .JDL {
     display: flex;
