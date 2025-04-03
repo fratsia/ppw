@@ -303,7 +303,7 @@ footer p {
     margin-right: 10px;
 }
 
-@media (max-width: 768px){
+@media (max-width: 700px){
     .gambar {
         align-items: center;
     }
@@ -340,6 +340,9 @@ footer p {
     .qscontainer {
         margin: 0 50px;
     }
+    .isi .par {
+        padding-right: unset;
+    }
 }
 @media (max-width: 600px) {
     footer {
@@ -354,8 +357,5 @@ footer p {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-    }
-    .isi .par {
-        padding-right: unset;
     }
 }
