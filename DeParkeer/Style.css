@@ -181,7 +181,7 @@ a p {
 }
 .gambar img {
     width: 80%;
-    height: 80%;
+    height: auto;
     margin: 0;
 }
 .gambar p {
@@ -323,7 +323,6 @@ footer p {
     }
     section img{
         width: 80%;
-        height: 80%;
     }
     .box {
         width: 200px;
